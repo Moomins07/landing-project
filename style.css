@@ -27,14 +27,16 @@ ul {
     display: inline;
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: auto;
 }
 
 
 nav { 
 
     display: flex;
-    justify-content: space-between;
-    padding: 10px 50px;
+    justify-content: center;
+    gap: 550px;
+    
 }
 
 
@@ -51,6 +53,8 @@ nav {
     align-items: center;
     padding-bottom: 3em;
     gap: 5em;
+    flex-wrap: nowrap;
+    
    }
 
 
@@ -58,7 +62,7 @@ nav {
 
     flex-basis: 30em;
     height: 15em;
-    margin-right: 18em;
+    flex-shrink: 0;
     background-color: grey;
 }
 
@@ -66,7 +70,7 @@ nav {
 
     flex-basis: 30em;
     height: ;
-    margin-left: 18em;
+    
 
 }
 
@@ -76,6 +80,7 @@ nav,
     background-color: #1F2937 ;
     color: white;
 }
+
 
 button {
 
@@ -96,7 +101,12 @@ h1 {
     color: #F9FAF8;
 }
 
+/* .nav-top-container {
 
+    padding: 0 40em;
+    background-color: #1F2937;
+}
+*/
 
 /* =============
     MIDDLE CONTENT
@@ -183,4 +193,76 @@ h1 {
 
    p {
        text-align: right;
+       font-size: 26px;
    }
+
+
+
+   /* =============
+    BOTTOM LAYER
+   ============= */
+
+
+   .bottom-layer {
+
+    display: flex;
+    height: 294px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 120px 0;
+
+   }
+
+.action-container {
+
+    display: flex;
+    flex-basis: 900px;
+    height: 120px;
+    color: white;
+    background: #3882F6 ;
+    border-radius: 0.7em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p1 {
+
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+.p2 {
+
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.pbutton {
+
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 0.5em;
+
+}
+
+
+
+
+
+#footer {
+
+    display:flex;
+    height: 150px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
