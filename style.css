@@ -34,7 +34,7 @@ nav {
 
     display: flex;
     justify-content: space-between;
-    padding: 0 18em;
+    padding: 10px 50px;
 }
 
 
@@ -47,9 +47,10 @@ nav {
     padding-top: 5em;
     display: flex;
     height: 25em;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 3em;
+    gap: 5em;
    }
 
 
@@ -64,7 +65,7 @@ nav {
 .text-left {
 
     flex-basis: 30em;
-    height: 15em;
+    height: ;
     margin-left: 18em;
 
 }
@@ -116,7 +117,7 @@ h1 {
    .img-middle {
 
      display: flex;
-     gap: 4em;
+     gap: 7em;
      justify-content: center;
      padding-top: 4em;
      flex-wrap: wrap;
@@ -163,11 +164,23 @@ h1 {
 
     display: flex;
     height: 294px;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 120px 0;
+
    }
 
 
    .quote-container {
 
-    
+    flex-basis: 800px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
 
+   }
+
+   p {
+       text-align: right;
    }
